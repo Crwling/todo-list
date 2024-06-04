@@ -1,0 +1,27 @@
+.input-edit {
+    background-color: rgb(128, 244, 182);
+    outline: none;
+    border-bottom: 2px solid #757575;
+    font-size: 20px;
+    padding: 3px 10px 3px 10px;
+}
+
+
+
+.task-item {
+    background-color: rgb(203, 233, 252);
+    border: 1px solid #757575;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #757575;
+    .task-text {
+        font-size: 18px;
+        padding-left: 5px;
+    }
+}
+
+.task-completed {
+    background: rgb(26, 243, 116);
+}

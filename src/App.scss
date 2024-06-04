@@ -1,0 +1,34 @@
+@import "/src/components/ToDoList.scss";
+@import "/src/components/TaskItem.scss";
+@import "/src/components/ToDoForm.scss";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+input {
+    border: none;
+}
+
+body {
+    font-family: Raleway;
+    margin: 20px 20px;
+    background: rgb(137,203,245);
+    background: linear-gradient(133deg, rgba(137,203,245,1) 32%, rgba(0,212,255,1) 100%);
+}
+
+button {
+    font-size: 14px;
+    margin: 10px 3px 10px 3px;
+    border-radius: 5px 5px;
+    border: 1px solid;
+    padding: 5px 10px 3px 10px;
+    height: 20px;
+    width: fit-content;
+    height: fit-content;
+    &:hover {
+        background-color: rgb(205, 228, 243);
+    }
+}
+
+.h1-main {
+    margin-left: 20px;
+}
+

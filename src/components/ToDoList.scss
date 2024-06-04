@@ -1,0 +1,14 @@
+.todo_list {
+    background-color: rgb(18, 222, 222);
+    border: 1px solid #757575;
+    padding: 5px 10px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.todo_list_full {
+    background-color: rgba(18, 222, 222, 0);
+    border: none;
+}

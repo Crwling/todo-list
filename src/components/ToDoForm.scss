@@ -1,0 +1,43 @@
+.input_label {
+    &:focus-within {
+        .input_h1 {
+            top: 10px;
+            font-size: 14px;
+            opacity: 100%;
+        }
+        .input_field {
+            border-bottom: 2px solid #757575;
+        }
+    }
+
+    .input_field {
+        width: 600px; 
+        margin: 45px 0px 15px 0px; 
+        display: block; 
+        background: #FFF;
+        padding: 10px 15px;
+        font-size: 20px;
+        border: none;
+        border-bottom: 2px solid #757575;
+        outline: none;
+        background-color: rgb(203, 233, 252)
+    }
+    
+    .input_h1 {
+        color:#000000; 
+        font-size: 18px;
+        font-weight: normal;
+        pointer-events: none;
+        left: 35px;
+        top: 45px;
+        position: absolute;
+        transition: 0.3s ease all;
+        opacity: 75%;
+    }
+
+    .input-hasValue {
+        top: 10px;
+        font-size: 14px;
+        opacity: 100%;
+    }
+}
