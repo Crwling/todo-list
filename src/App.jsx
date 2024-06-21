@@ -10,7 +10,7 @@ function App() {
   return (
     <AppContextProvider>
       <ToDoForm/>
-      <h1 className='h1-main'>Список дел</h1>
+      <h1 className='h1-main'>Task list</h1>
       <ToDoList/>
     </AppContextProvider>
   )
