@@ -1,8 +1,10 @@
+// eslint-disable-next-line no-unused-vars
 import React, { createContext, useState } from "react";
 import { v4 as uuidv4 } from 'uuid'
 
 export const AppContext = createContext(null);
 
+// eslint-disable-next-line react/prop-types
 export const AppContextProvider = ({ children }) => {
     const [todos, setTodos] = useState(() => {
         const localValue = localStorage.getItem("ITEMS")

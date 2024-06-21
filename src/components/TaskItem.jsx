@@ -1,7 +1,9 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useContext } from "react";
 import clsx from "clsx";
 import { AppContext } from "./AppContext";
 
+// eslint-disable-next-line react/prop-types
 export function TaskItem ({ completed, id, title }) {
     const [isEditMode, setIsEditMode] = useState(false); // isEditMode
     const [newTitle, setNewTitle] = useState(""); // new title
@@ -29,10 +31,10 @@ export function TaskItem ({ completed, id, title }) {
                 ) : title}
             </div>
             <button className="button" onClick={() => handleEditTodo({ id, completed: !completed })}>
-                Готово
+                Done
             </button>
             <button className="button" onClick={() => deleteToDo(id)}>
-                Удалить
+                Delete
             </button>
             {isEditMode ? (
                 <>
@@ -48,7 +50,7 @@ export function TaskItem ({ completed, id, title }) {
                     setIsEditMode(true)
                     setNewTitle(title)
                 }}>
-                    Редактировать
+                    Edit
                 </button>
             )}
         </div>

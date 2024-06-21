@@ -19,14 +19,13 @@ export function ToDoForm () {
     return (
         <form onSubmit={handleSubmit}>
         <label className="input_label">
-          {/* clsx на h1 и если input с value */}
           <h1 className={clsx("input_h1", { "input-hasValue": !!newItem })}>Что бы вы хотели сделать?</h1>
           <input className={clsx ("input_field")}
           value={newItem} 
           onChange={(e) => setNewItem(e.target.value)}
           />
         </label>
-        <button>Готово!</button>
+        <button>Done!</button>
       </form>
     )
 }

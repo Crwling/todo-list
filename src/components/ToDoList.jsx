@@ -9,7 +9,7 @@ export function ToDoList () {
 
     return (
         <div className={clsx("todo_list", { "todo_list_full": someToDoToDo })}> 
-            {todos.length === 0 ? "Займись делом, бездельник!!!" : (
+            {todos.length === 0 ? "You have no todos!!!" : (
                 todos.map(todo => {
                     return (
                         <TaskItem
